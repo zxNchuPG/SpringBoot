@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: 01-springboot-hello
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ￦ﾗﾶ￩ﾗﾴ
+Implementation-Vendor-Id: com.nchu
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/01-springboo
+ t-hello/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
