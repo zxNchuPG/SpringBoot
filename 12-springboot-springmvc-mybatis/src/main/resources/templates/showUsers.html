@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>展现用户信息</title>
+</head>
+<body>
+	<table border="1" style="width:300px;">
+		<tr>
+			<th>用户id</th>
+			<th>用户姓名</th>
+			<th>用户年龄</th>
+			<th>用户操作</th>
+		</tr>
+		<tr th:each="users:${list}">
+			<td th:text="${users.id}"></td>
+			<td th:text="${users.name}"></td>
+			<td th:text="${users.age}"></td>
+			<td>
+				<a th:href="@{/users/findUsersById(id=${users.id})}">更新用户</a>
+				<a th:href="@{/users/delUserById(id=${users.id})}">删除</a>
+			</td>
+		</tr>		
+	</table>
+</body>
+</html>
